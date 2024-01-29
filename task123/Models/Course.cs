@@ -1,4 +1,5 @@
 ﻿
+using System.Collections.Generic;
 
 namespace task123.Models
 {
@@ -9,5 +10,7 @@ namespace task123.Models
         public string Name { get; set; }
 
         public string Description { get; set; }
+
+        public List<Lesson> Lessons { get; set; }
     }
 }
